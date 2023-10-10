@@ -1,0 +1,58 @@
+*{
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Roboto', sans-serif;
+    
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4 {
+    font-size: 22px;
+}
+.jumbotron{
+    background-image: url('assets/background.jpg');
+    
+    background-position: center top;
+    background-size: 100% ;
+    padding-top: 140px;
+    padding-bottom: 280px;
+    height: 100%
+
+}
+.container{
+    margin-bottom: 10px;
+}
+.background-blue{
+    background-color: #BAD7F2;
+}
+
+.background-pink span{
+    background-color: #F2BAC9;
+    padding: 10px;
+    border-radius: 25px;
+}
+.background-orange span{
+    background-color: #F2E2BA;
+    padding: 10px;
+    border-radius: 25px;
+}
+.right{
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.me-img {
+    border-radius: 10%;
+}
+
+.projects{
+    padding-top: 10px;
+    border-radius: 15px;
+}

@@ -10,10 +10,18 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- 
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#hello">About</a>
+        <a href="#past-experiences">Past Experiences</a>
+        <a href="#projects">Projects</a>
+      </div>
+    -->
 
 <div class="jumbotron text-center">
   <h1>Varsha Jacob</h1>
-  <p>Thank you for checking out my page :)</p> 
+  <p>Thank you for checking out my page</p> 
   <p>Connect with me: </p>
   <a href = "https://www.instagram.com/varshajacob15/"><img src = "assets/instagram.png" width = "50px"></a>
   <a href = "mailto:varsha.jacob@gatech.edu"><img src = "assets/email.png" width = "30px"></a>
@@ -29,7 +37,9 @@
         
         <p>Hi! My name is Varsha Jacob, and I'm a 2nd year CS major at Georgia Tech. My specializations are networking, including information security and database management, and AI/ML.
         </p>
-        <p>In my free time, I love going hiking with my family, spending time with my dog Max, and finding new bands on Spotify!</p>
+        <p>In my free time, I love going hiking with my family, spending time with my dog Max, and finding new bands on Spotify! I'm also super passionate about music! 
+          I have been playing the violin for 9 years, and I picked up the lyre harp a few years ago during Covid. 
+        </p>
         <p>Fun fact: The image in my header is one I took at Mount Mitchell State Park near Asheville, NC. Mount Mitchell is the highest point in the U.S. east of the Mississippi River, and I had a fun time hiking it this fall!</p>
     </div>
     <div class="col-xs-4 background-blue right me-img">
@@ -38,7 +48,7 @@
   </div>
 </div>
 <div class = "container">
-    <h1 class = "background-pink bubble"><span>Past Experience</span></h1>
+    <h1 class = "background-pink bubble" id = "past-experiences"><span>Past Experience</span></h1>
     <h3>TIAA</h3>
     <h4>Software Engineering Intern - Cybersecurity</h4>
     <p>This past summer (2023), I was part of the TIAA Intern Program at Charlotte, NC in the cybersecurity department. 
@@ -51,18 +61,16 @@
     </p>
 </div>
 <div class = "container background-blue projects">
-    <h1 class = "background-orange"><span>Projects</span></h1>
-    <h3>TIAA Internship Hackathon - Marketing Suite</h3>
+    <h1 class = "background-orange" id = "projects"><span>Projects</span></h1>
+    <a href = "TIAA.html"><h3>TIAA Internship Hackathon - Marketing Suite</h3></a>
     <h4>1st Place</h4>
-    <p>As a technology intern at TIAA, I was tasked with creating a tool that would bring retirement education to my peers, Gen Z. 
-        I was challenged to use Generative AI to create a personalized educational retirement-planning solution.
-    </p>
-    <h3>Datapath and Interrupts</h3>
-    <h4>CS 2200</h4>
-    <p>As part of my CS 2200 (Intro to Computer Systems and Networks) class, I got to create an entire computer from scratch using CircuitSim, which (as its name suggests), simulates circuits.
-    This project was actually composed of two smaller projects. First, I created a working datapath by stringing together registers, wires, arithmetic operators, and more to create a working computer. 
-    For the next phase of the project, I implemented hardware and handlers that would allow for interrupts without losing the state of the original program. 
-    </p>
+    
+    <a href = "datapath.html"><h3>Datapath and Interrupts</h3></a>
+    
+    <a href = "rsa.html"><h3>RSA Encryption Algorithm</h3></a>
+    <h4>Awards Won: Georgia Engineering Foundation Award of Excellence: Impact on Living, UGA Department of Mathematics Award</h4>
+
+    <a href = "abalone.html"><h3>Abalone Age Predictor</h3></a>
 
     
 </div>
